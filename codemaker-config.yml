@@ -1,0 +1,6 @@
+allowedExtensions:
+- js
+
+ignore:
+- node_modules
+- public

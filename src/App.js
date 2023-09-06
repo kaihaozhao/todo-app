@@ -1,16 +1,16 @@
+import React from 'react';
 import './App.css';
+import Todo from './Todo';
 
-function App() {
+const App = () => {
+
   return (
     <div className="App">
       <header className="App-header">
-        <form>
-          <input type="text" placeholder="Add a todo item" />
-          <button type="submit">Add</button>
-        </form>
+        <Todo />
       </header>
     </div>
   );
-}
+};
 
 export default App;
